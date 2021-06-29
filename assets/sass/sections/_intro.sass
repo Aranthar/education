@@ -1,0 +1,178 @@
+.figure
+  position: relative
+
+  img
+    position: absolute
+    z-index: 0
+
+    pointer-events: none
+
+  .circle
+    top: 184px
+    left: 395px
+
+  .half-oval__small
+    top: 0
+    left: 995px
+
+  .half-oval__big
+    top: 0
+    right: 133px
+
+  .triangle
+    top: 290px
+    right: 725px
+
+  .polygon
+    top: 574px
+    right: 0
+
+.section__intro
+  background: linear-gradient(#6c0bff, #6500ff)
+
+  width: 100vw
+  height: 100vh
+
+  .header
+    position: relative
+    z-index: 2
+
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    padding-top: 50px
+
+    color: #fff
+
+    margin-bottom: 150px
+
+    &__logo
+      font-family: 'Roboto', sans-serif
+      font-size: 37px
+      font-weight: 700
+
+      text-transform: uppercase
+
+      margin-right: 390px
+
+      cursor: pointer
+
+      img
+        margin-bottom: -3px
+        margin-right: -8px
+
+        pointer-events: none
+
+    &__nav
+      display: flex
+      flex-direction: row
+
+      li
+        text-transform: capitalize
+
+        font-family: 'Raleway', sans-serif
+        font-size: 18px
+        font-weight: 500
+
+        transition: text-shadow .3s
+        
+        &:not(:last-child)
+          margin-right: 60px
+
+        &:hover
+           text-shadow: #fff 0 0 5px
+
+    button
+      margin-right: 0
+      margin-left: auto
+
+  .intro__inner
+    position: relative
+    z-index: 2
+
+    display: flex
+    flex-direction: row
+
+    color: #fff
+
+    .intro__info
+      display: flex
+      flex: 0 0 auto
+      flex-direction: column
+      justify-content: center
+      align-items: flex-start
+
+      width: 50%
+
+
+      h1
+        font-family: 'Raleway', sans-serif
+        font-size: 70px
+        font-weight: 800
+
+        margin-bottom: 15px
+
+      p
+        font-family: 'Open Sans', sans-serif
+        font-size: 17px
+        font-weight: 600
+
+        margin-bottom: 50px
+
+        line-height: 1.8
+
+    .intro__infobar
+      flex: 0 0 auto
+      width: 50%
+
+      .infobar__data
+        position: relative
+        top: 0
+        left: 0
+
+        div
+          display: flex
+          flex-direction: column
+          align-items: center
+
+          position: absolute
+          top: -115px
+          left: 0
+
+          text-transform: capitalize
+
+          font-family: 'Poppins', sans-serif
+          font-size: 13px
+          font-weight: 600
+
+          img
+            margin-bottom: 12px
+
+        .data-1
+          left: 174px
+
+        .data-2
+          top: -111px
+          left: 332px
+
+        .data-3
+          top: -113px
+          left: 480px
+          white-space: pre
+
+        .data-4
+          top: -268px
+          left: 295px
+
+        .data-5
+          top: -286px
+          left: 500px
+          transform: rotate(15deg)
+
+        .data-6
+          top: -435px
+          left: 330px
+          transform: rotate(-13deg)
+
+          color: #000
