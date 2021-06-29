@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1171px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
